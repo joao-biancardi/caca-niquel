@@ -3,13 +3,10 @@ html, body {
     padding: 0;
 }
 
-body {
-    background: url('./images/casino2.jpg') no-repeat fixed center;
-}
-
 .container {
     width: 100%;
     height: 100vh;
+    background: url('./images/casino2.jpg') no-repeat fixed center;
     display: flex;
     justify-content: center;
 }
@@ -88,20 +85,16 @@ button:hover {
     .container {
         height: 100vh;
     }
-
     .containerContents {
         height: 100vh;
     }
-
     .title {
         width: 100%;
         padding: 0;
     }
-
     .slots {
         width: 80%;
     }
-  
     #results {
         margin: 0;
     }
@@ -111,53 +104,26 @@ button:hover {
     .container {
         height: 100vh;
     }
-
     .containerContents {
         height: 100vh;
     }
-
     .title {
         width: 100%;
         padding: 0;
     }
-
     .slots {
         width: 80%;
     }
-
     button {
         width: 200px;
     }
-
     #results {
         margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
-        height: 100vh;
-    }
-
-    .containerContents {
-        height: 90vh;
-        margin: 0;
-        padding: 0;
-    }
-
-    .title {
-        width: 100%;
-    }
-
     .slots {
         width: 100%;
-    }
-
-    button {
-        width: 250px;
-    }
-    
-    #results {
-        margin: 0;
     }
 }
